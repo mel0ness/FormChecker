@@ -122,7 +122,7 @@ form.addEventListener("submit", (e) => {
     confirmPassword = null;
 
     inputs.forEach((input) => (input.value = ""));
-    passwordChecker();
+    progressBar.classList = "";
     console.log(data);
   } else {
     alert("Le formulaire n'est pas correctement rempli!");
